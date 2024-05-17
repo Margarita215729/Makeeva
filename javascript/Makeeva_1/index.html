@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tasks</title>
+</head>
+<body>
+    <script>
+        let number = prompt("Введите любое число:");
+
+        let num1 = parseFloat(prompt("Введите первое число:"));
+        let num2 = parseFloat(prompt("Введите второе число:"));
+
+        let sum = num1 + num2;
+        let difference = num1 - num2;
+        let product = num1 * num2;
+        let quotient = num1 / num2;
+
+        alert(`Сумма: ${sum}\nРазность: ${difference}\nПроизведение: ${product}\nЧастное: ${quotient}`);
+
+        let userNumber = prompt("Задумайте любое число:");
+        let result = (userNumber * 2) + 7;
+        alert(`Ваше задуманное число: ${result}`);
+
+        let name = prompt("Введите ваше имя:");
+        let birthYear = parseInt(prompt("Введите год вашего рождения:"));
+        let currentYear = new Date().getFullYear();
+        let age = currentYear - birthYear;
+
+        document.write(`${name}: ${age}`);
+    </script>
+</body>
+</html>
