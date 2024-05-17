@@ -27,7 +27,7 @@ body {
 h1 {
     font-weight: 700;
     margin-bottom: 20px;
-    color: green; /* Установите зеленый цвет для текста */
+    color: green; 
 }
 
 .navbar {
@@ -42,7 +42,6 @@ a:hover {
     color: rgba(52, 58, 64, 1);
 }
 
-/* Custom styles for Bootstrap components */
 .carousel-inner img {
     height: 400px;
 }
